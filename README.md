@@ -34,14 +34,42 @@ A **desktop application** designed to streamline **trainee attendance management
 
 ### 📌 Main Interface
 <p align="center">
-  <img src="GAIT_Project/Main_Interface.png" width="80%" alt="Main Interface">
+  <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Main Interface">
 </p>
+<p align="center">
+  <img src="Attendance_System_project/DEPARTMENTS.png" width="80%" alt="Main Interface">
+</p>
+<p align="center">
+  <img src="Attendance_System_project/EXCUSES.png" width="80%" alt="Main Interface">
+</p>
+<p align="center">
+  <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Main Interface">
+</p>
+
+
+<p align="center">
+  <img src="Attendance_System_project/insert.gif" width="80%" alt="Main Interface">
+</p>
+<p align="center">
+  <img src="Attendance_System_project/update.gif" width="80%" alt="Main Interface">
+</p>
+<p align="center">
+  <img src="Attendance_System_project/delete.gif" width="80%" alt="Main Interface">
+</p>
+
 
 ### 📜 Attendance Reports
 - 🔥 **Generate Reports in PDF & Excel!**
+
+
 <p align="center">
-  <img src="GAIT_Project/Attendance_Report.png" width="80%" alt="Attendance Report">
+  <img src="Attendance_System_project/StudentReports.png" width="80%" alt="Attendance Report">
 </p>
+
+<p align="center">
+  <img src="Attendance_System_project/DepartmentReports.png" width="80%" alt="Attendance Report">
+</p>
+
 
 ## 🔍 Usage
 - 🏷️ **Track Attendance:** Connect the fingerprint scanner and **automatically record trainee attendance**.
