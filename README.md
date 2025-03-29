@@ -1,7 +1,7 @@
 # Attendance Reporting System for Trainees
 
 <p align="center">
-  <img src="GAIT_KAU_Logo.png" width="20%" alt="General Administration of Information Technology">
+  <img src="Attendance_System_project/logo.jpg" width="20%" alt="General Administration of Information Technology">
 </p>
 
 ## 🚀 Project Overview
@@ -47,6 +47,9 @@ A **desktop application** designed to streamline **trainee attendance management
 - 🏷️ **Track Attendance:** Connect the fingerprint scanner and **automatically record trainee attendance**.
 - 📊 **Generate Reports:** Select a **date range** and export reports in **Excel or PDF**.
 - 🏛️ **Manage Data:** Add, update, or remove **trainee and department records**.
+
+## 🔮 Future Improvements
+- Enhance the interface to make it more visually appealing and user-friendly.
 
 ## 📜 Conclusion
 This project successfully automated trainee attendance tracking, reducing manual errors and enhancing report accuracy. By integrating fingerprint authentication, it provides a **reliable and efficient solution** for managing attendance data. The system's ability to generate reports in multiple formats makes it a **valuable tool for administrators** overseeing trainee records.
