@@ -97,9 +97,12 @@ The system utilizes **two databases** for efficient data management:
    ```sh
    git clone https://github.com/NuhaMakki/Attendance_Reporting_System.git
    ```
+
 2️⃣ **Open the project in Visual Studio.**
+
 3️⃣ **Configure the database:**
    - Replace the existing `.mdb` file in the `database` folder with your **fingerprint scanner database** (if needed).
+
 4️⃣ **Run the application.**
 
 ## 🔍 Usage Guide
