@@ -25,7 +25,7 @@ The application consists of **four primary interfaces**, each facilitating essen
 - This interface allows administrators to **add, update, or delete student records** and assign students to specific departments.
 
 <p align="center"> <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Student Management Interface"> </p>
-<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Student Management Interface</strong></p>
+<p align="center" style="font-size: smaller; margin-bottom: 80px;"><strong>Student Management Interface</strong></p>
 
 <p align="center"> <img src="Attendance_System_project/insert.gif" width="80%" alt="Student Insert"> </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Adding a Student</strong></p>
