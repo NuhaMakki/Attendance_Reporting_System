@@ -25,7 +25,7 @@ The application consists of **four primary interfaces**, each facilitating essen
 - This interface allows administrators to **add, update, or delete student records** and assign students to specific departments.
 
 <p align="center"> <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Student Management Interface"> </p>
-<p align="center" style="font-size: 10px; margin-bottom: 20px;"><strong>Student Management Interface</strong></p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Student Management Interface</strong></p>
 <br>
 <p align="center"> <img src="Attendance_System_project/insert.gif" width="80%" alt="Student Insert"> </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Adding a Student</strong></p>
@@ -56,6 +56,7 @@ The application consists of **four primary interfaces**, each facilitating essen
    - Export reports in **PDF or Excel format**.
 <p align="center"> <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Attendance Reporting Interface"> </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Attendance Reporting Interface</strong></p>
+<br>
 
 
 
@@ -67,6 +68,7 @@ The application consists of **four primary interfaces**, each facilitating essen
 
 <p align="center"> <img src="Attendance_System_project/StudentReports.png" width="80%" alt="Student Attendance Report"> </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Student Attendance Report</strong></p>
+<br>
 
 <p align="center"> <img src="Attendance_System_project/DepartmentReports.png" width="80%" alt="Department Attendance Report"> </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Department Attendance Report</strong></p>
@@ -86,6 +88,7 @@ The system utilizes **two databases** for efficient data management:
   <img src="Attendance_System_project/DB_Relations.png" width="80%" alt="Database Structure"> 
 </p>
 <p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Database Structure</strong></p>
+<br>
 
 
 ## 🚀 Getting Started
