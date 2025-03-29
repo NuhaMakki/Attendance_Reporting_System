@@ -22,34 +22,37 @@ The **Attendance Reporting System** is a **desktop application** designed to str
 The application consists of **four primary interfaces**, each facilitating essential functionality:
 
 1️⃣ **Student Management Interface:**
-This interface allows administrators to **add, update, or delete student records** and assign students to specific departments.
-<p align="center"> <strong>Student Management Interface</strong> </p>
-<p align="center"> <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Student Management Interface"> </p>
-<p align="center"> <strong>Adding a Student</strong> </p>
-<p align="center"> <img src="Attendance_System_project/insert.gif" width="80%" alt="Student Insert"> </p> 
-<p align="center"> <strong>Updating Student Information</strong> </p>
-<p align="center"> <img src="Attendance_System_project/update.gif" width="80%" alt="Student Update"> </p> 
-<p align="center"> <strong>Deleting a Student</strong> </p>
-<p align="center"> <img src="Attendance_System_project/delete.gif" width="80%" alt="Student Delete"> </p>
+- This interface allows administrators to **add, update, or delete student records** and assign students to specific departments.
 
+<p align="center"> <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Student Management Interface"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Student Management Interface</strong></p>
+
+<p align="center"> <img src="Attendance_System_project/insert.gif" width="80%" alt="Student Insert"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Adding a Student</strong></p>
+
+<p align="center"> <img src="Attendance_System_project/update.gif" width="80%" alt="Student Update"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Updating Student Information</strong></p>
+
+<p align="center"> <img src="Attendance_System_project/delete.gif" width="80%" alt="Student Delete"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Deleting a Student</strong></p>
 
 #### 2️⃣ Department Management Interface
-This interface enables administrators to **add, update, or delete department records**.
-<p align="center"> <strong>Department Management Interface</strong> </p>
+- This interface enables administrators to **add, update, or delete department records**.
 <p align="center"> <img src="Attendance_System_project/DEPARTMENTS.png" width="80%" alt="Department Management Interface"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Department Management Interface</strong></p>
 
 #### 3️⃣ Excuse Management Interface
-This interface is used to **assign excuses for students within a specified date range**.
-<p align="center"> <strong>Excuse Management Interface</strong> </p>
+- This interface is used to **assign excuses for students within a specified date range**.
 <p align="center"> <img src="Attendance_System_project/EXCUSES.png" width="80%" alt="Excuse Management Interface"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Excuse Management Interface</strong></p>
 
 #### 4️⃣ Attendance Reporting Interface
-The reporting interface allows administrators to:
-- **generate student-specific or department-wide attendance reports**
-- **Filter** attendance data by date range
-- Export reports in **PDF or Excel format**.
-<p align="center"> <strong>Attendance Reporting Interface</strong> </p>
+- The reporting interface allows administrators to:
+   - **generate student-specific or department-wide attendance reports**
+   - **Filter** attendance data by date range
+   - Export reports in **PDF or Excel format**.
 <p align="center"> <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Attendance Reporting Interface"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Attendance Reporting Interface</strong></p>
 
 
 
@@ -59,11 +62,11 @@ The reporting interface allows administrators to:
 - 📄 **Multiple Export Options:** Reports can be **exported** in **PDF and Excel formats** for further analysis.
 - 📊 **Enhanced Data Insights:** Reports include **entry and exit times**, total attendance houres, and excuse details.
 
-<p align="center"> <strong>Student Attendance Report</strong> </p>
 <p align="center"> <img src="Attendance_System_project/StudentReports.png" width="80%" alt="Student Attendance Report"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Student Attendance Report</strong></p>
 
-<p align="center"> <strong>Department Attendance Report</strong> </p>
 <p align="center"> <img src="Attendance_System_project/DepartmentReports.png" width="80%" alt="Department Attendance Report"> </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Department Attendance Report</strong></p>
 
 ## 🗄️ Database Structure
 The system utilizes **two databases** for efficient data management:
@@ -76,10 +79,11 @@ The system utilizes **two databases** for efficient data management:
    - Retrieves **attendance logs** from the **fingerprint scanner device**.
    - Stores timestamped **records** for accurate attendance tracking.
 
-<p align="center"> <strong>Database Structure</strong> </p>
 <p align="center">
   <img src="Attendance_System_project/DB_Relations.png" width="80%" alt="Database Structure"> 
 </p>
+<p align="center" style="font-size: smaller; margin-bottom: 20px;"><strong>Database Structure</strong></p>
+
 
 ## 🚀 Getting Started
 ### 🔧 Installation & Setup
