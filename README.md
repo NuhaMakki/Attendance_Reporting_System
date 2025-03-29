@@ -51,7 +51,7 @@ The application consists of **four primary interfaces**, each facilitating essen
 
 #### 4️⃣ Attendance Reporting Interface
 - The reporting interface allows administrators to:
-   - **generate student-specific or department-wide attendance reports**
+   - **Generate student-specific or department-wide attendance reports**
    - **Filter** attendance data by date range
    - Export reports in **PDF or Excel format**.
 <p align="center"> <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Attendance Reporting Interface"> </p>
