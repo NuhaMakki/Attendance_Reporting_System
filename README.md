@@ -5,19 +5,78 @@
 </p>
 
 ## 🚀 Project Overview
-A **desktop application** designed to streamline **trainee attendance management** by integrating with a **fingerprint scanner device**. Developed during my summer training at **General Administration of Information Technology (GAIT), King Abdulaziz University (KAU)**, this system automates attendance tracking, enhances **report generation**, and improves data accuracy.
+The **Attendance Reporting System** is a **desktop application** designed to streamline **trainee attendance management** by integrating with a **fingerprint scanner device**. Developed during my summer training at **General Administration of Information Technology (GAIT), King Abdulaziz University (KAU)**, this system automates attendance tracking, enhances **report generation**, and improves data accuracy.
 
 ## 🎯 Key Features
 - ✅ **Automated Attendance Tracking:** Retrieves and processes fingerprint data to **log trainee entry and exit times**.
-- ✅ **Detailed Report Generation:** Exports **attendance records** in **PDF and Excel formats** for easy analysis.
-- ✅ **Comprehensive Data Management:** Enables adding, updating, and deleting **trainee and department records**.
-- ✅ **Error Handling & Validation:** Prevents incorrect entries and ensures **data accuracy**.
-- ✅ **User Input Validation:** Ensures that all user inputs are checked and validated to prevent errors and enhance system reliability.
+- ✅ **Detailed Report Generation:** Generates **attendance reports** for **specific students or departments** within a selected date range. Reports can be **exported in PDF or Excel format** and printed.
+- ✅ **Comprehensive Data Management:** Allows adding, updating, and deleting **student and department records**.
+- ✅ **Excuse Management:** Enables tracking and managing **student excuses** and **granted excuses**.
+- ✅ **User Input Validation & Error Handling:** Ensures data integrity and prevents incorrect entries.
 
 ## 🛠️ Tech Stack
 - **Programming Language:** C#
 - **Framework:** .NET
 - **Database:** Microsoft Access
+- **File Export Formats:** Excel (XLSX), PDF
+
+## 🔧 System Components
+### 📌 Main Interfaces
+The application consists of **four primary interfaces**, each facilitating essential functionality:
+
+1️⃣ **Student Management Interface:**
+   - Add, update, or delete **student records**.
+   - Assign students to specific departments.
+<p align="center"> <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Student Management Interface"> </p>
+<p align="center"> <img src="Attendance_System_project/insert.gif" width="80%" alt="Student Insert"> </p> 
+<p align="center"> <img src="Attendance_System_project/update.gif" width="80%" alt="Student Update"> </p> 
+<p align="center"> <img src="Attendance_System_project/delete.gif" width="80%" alt="Student Delete"> </p>
+
+2️⃣ **Department Management Interface:**
+   - Add, update, or delete **department records**.
+
+<p align="center"> <img src="Attendance_System_project/DEPARTMENTS.png" width="80%" alt="Department Management Interface"> </p>
+
+3️⃣ **Excuse Management Interface:**
+   - Assign excuses for a student withen specifice date.
+
+<p align="center"> <img src="Attendance_System_project/EXCUSES.png" width="80%" alt="Excuse Management Interface"> </p>
+
+4️⃣ **Attendance Reporting Interface:**
+   - Generate **student-specific or department-wide reports**.
+   - Select a **date range** to filter attendance data.
+   - Export and print reports in **PDF or Excel format**.
+
+<p align="center"> <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Attendance Reporting Interface"> </p>
+
+
+
+### 📜 Attendance Reports
+- 🔥 **Custom Reports:** Generate **attendance reports** for a specific student or an entire department within a selected date range.
+- 📄 **Multiple Export Options:** Reports can be **exported** in **PDF and Excel formats** for further analysis.
+- 📊 **Enhanced Data Insights:** Reports include **entry and exit times**, total attendance houres, and excuse details.
+
+<p align="center">
+  <img src="Attendance_System_project/StudentReports.png" width="80%" alt="Student Attendance Report">
+</p>
+
+<p align="center">
+  <img src="Attendance_System_project/DepartmentReports.png" width="80%" alt="Department Attendance Report">
+</p>
+
+## 🗄️ Database Structure
+The system utilizes **two databases** for efficient data management:
+
+1️⃣ **Primary Database:**
+   - Stores **student records, department information and excuses**.
+   - Handles **data entry, updates, and deletions** for trainees and departments.
+   
+2️⃣ **Fingerprint Attendance Database:**
+   - Retrieves **attendance logs** from the **fingerprint scanner device**.
+   - Stores timestamped **records** for accurate attendance tracking.
+
+<p align="center">
+  <img src="Attendance_System_project/DB_Relations.png" width="80%" alt="Main Interface"> 
 
 ## 🚀 Getting Started
 ### 🔧 Installation & Setup
@@ -30,57 +89,18 @@ A **desktop application** designed to streamline **trainee attendance management
    - Replace the existing `.mdb` file in the `database` folder with your **fingerprint scanner database** (if needed).
 4️⃣ **Run the application.**
 
-## 📸 Screenshots & Media
-
-### 📌 Main Interface
-<p align="center">
-  <img src="Attendance_System_project/STUDENT.png" width="80%" alt="Main Interface">
-</p>
-<p align="center">
-  <img src="Attendance_System_project/DEPARTMENTS.png" width="80%" alt="Main Interface">
-</p>
-<p align="center">
-  <img src="Attendance_System_project/EXCUSES.png" width="80%" alt="Main Interface">
-</p>
-<p align="center">
-  <img src="Attendance_System_project/REPORTS.png" width="80%" alt="Main Interface">
-</p>
-
-
-<p align="center">
-  <img src="Attendance_System_project/insert.gif" width="80%" alt="Main Interface">
-</p>
-<p align="center">
-  <img src="Attendance_System_project/update.gif" width="80%" alt="Main Interface">
-</p>
-<p align="center">
-  <img src="Attendance_System_project/delete.gif" width="80%" alt="Main Interface">
-</p>
-
-
-### 📜 Attendance Reports
-- 🔥 **Generate Reports in PDF & Excel!**
-
-
-<p align="center">
-  <img src="Attendance_System_project/StudentReports.png" width="80%" alt="Attendance Report">
-</p>
-
-<p align="center">
-  <img src="Attendance_System_project/DepartmentReports.png" width="80%" alt="Attendance Report">
-</p>
-
-
-## 🔍 Usage
-- 🏷️ **Track Attendance:** Connect the fingerprint scanner and **automatically record trainee attendance**.
+## 🔍 Usage Guide
+- 🏷️ **Track Attendance:** Connect the fingerprint scanner to **automatically log trainee attendance**.
 - 📊 **Generate Reports:** Select a **date range** and export reports in **Excel or PDF**.
 - 🏛️ **Manage Data:** Add, update, or remove **trainee and department records**.
+- 📄 **Handle Excuses:** Review and approve **student absence excuses**.
 
 ## 🔮 Future Improvements
-- Enhance the interface to make it more visually appealing and user-friendly.
+- Enhance the **user interface** for a more modern and intuitive experience.
+- Implement **role-based access control** for different user levels.
 
 ## 📜 Conclusion
-This project successfully automated trainee attendance tracking, reducing manual errors and enhancing report accuracy. By integrating fingerprint authentication, it provides a **reliable and efficient solution** for managing attendance data. The system's ability to generate reports in multiple formats makes it a **valuable tool for administrators** overseeing trainee records.
+This system provides a **reliable, efficient, and automated** solution for **trainee attendance management**. By integrating **fingerprint authentication**, it eliminates manual errors and ensures **data accuracy**. The ability to **generate detailed reports** in multiple formats makes it a **powerful tool for administrators** overseeing student records.
 
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
@@ -100,3 +120,4 @@ If you have any questions or suggestions, feel free to connect!
 </a>
 
 </div>
+
