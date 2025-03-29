@@ -1,7 +1,7 @@
 # Attendance Reporting System for Trainees
 
 <p align="center">
-  <img src="Attendance_System_project/logo.jpg" width="20%" alt="General Administration of Information Technology">
+  <img src="Attendance_System_project/logo1.jpg" width="100%" alt="General Administration of Information Technology">
 </p>
 
 ## 🚀 Project Overview
